@@ -4,21 +4,21 @@
 default: build
 
 clean:
-	$(MAKE) -f objs/Makefile clean
+	$(MAKE) -f out/Makefile clean
 
 reset:
-	$(RM) -r Makefile objs
+	$(RM) -r Makefile out
 
 test:
-	$(MAKE) -f objs/Makefile test
+	$(MAKE) -f out/Makefile test
 
 task:
-	$(MAKE) -f objs/Makefile $(TASK)
+	$(MAKE) -f out/Makefile $(TASK)
 
 
 build:
-	$(MAKE) -f objs/Makefile
+	$(MAKE) -f out/Makefile
 
 install: 
-	$(MAKE) -f objs/Makefile install
+	$(MAKE) -f out/Makefile install
 

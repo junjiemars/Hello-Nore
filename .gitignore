@@ -53,3 +53,6 @@ dkms.conf
 
 *.swp
 objs/
+.nore/
+configure
+out/
