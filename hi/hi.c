@@ -1,4 +1,4 @@
-#include <nm_auto.h>
+#include <nore.h>
 #include <stdio.h>
 
 
