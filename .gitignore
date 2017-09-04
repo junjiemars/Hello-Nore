@@ -56,3 +56,4 @@ objs/
 .nore/
 configure
 out/
+Makefile
