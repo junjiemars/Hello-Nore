@@ -2,16 +2,10 @@
 #include <stdio.h>
 
 
-#define _unused_(x) (void)(x)
-
-
 int 
-main(int argc, const char *argv[]) {
-	_unused_(argc);
-	_unused_(argv);
+main() {
 
-	printf("Hello World, Version:%d\n", 
-		HI_VERSION/* defined in nm_auto_config.h */);
+	printf("Hello Nore\n");
 
 	return 0;
 }
